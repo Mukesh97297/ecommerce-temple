@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function Order() {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
