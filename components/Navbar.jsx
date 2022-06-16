@@ -56,8 +56,8 @@ function Navbar({ cart, addToCart, removeFromCart, clearCart, subTotal }) {
                 </ol>
                 <div className="total font-bold my-2">Subtotal: ₹{subTotal}</div>
                 <div className='flex'>
-                    <Link href={"/checkout"}><button class="flex text-white bg-pink-500 border-0 py-2 px-2 mr-1 focus:outline-none hover:bg-pink-600 rounded "> <BsFillBagCheckFill className='m-1' /> Checkout</button></Link>
-                    <button onClick={clearCart} class="flex text-white bg-pink-500 border-0 py-2 px-2 focus:outline-none hover:bg-pink-600 rounded">Clear Cart</button>
+                    <Link href={"/checkout"}><button className="flex text-white bg-pink-500 border-0 py-2 px-2 mr-1 focus:outline-none hover:bg-pink-600 rounded "> <BsFillBagCheckFill className='m-1' /> Checkout</button></Link>
+                    <button onClick={clearCart} className="flex text-white bg-pink-500 border-0 py-2 px-2 focus:outline-none hover:bg-pink-600 rounded">Clear Cart</button>
                 </div>
             </div>
         </div>

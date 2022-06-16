@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Product from '../models/Product'
 import mongoose from "mongoose";
+import Image from 'next/image';
 
 function Tshirts({ products }) {
   return (
@@ -12,7 +13,7 @@ function Tshirts({ products }) {
             {Object.keys(products).map((item) => {
               return <Link passHref={true} key={products[item]._id} href={`/product/${products[item].slug}`}><div className="lg:w-1/4 md:w-1/2 p-4 w-full cursor-pointer shadow-lg mb-4 ml-2">
                 <a className="block relative rounded overflow-hidden">
-                  <img alt="ecommerce" className="h-[30vh] md:h-[36vh] block m-auto" src={products[item].img} />
+                  <Image alt="ecommerce" className="h-[30vh] md:h-[36vh] block m-auto" src={products[item].Image} />
                 </a>
                 <div className="mt-4">
                   <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">T-Shirts</h3>

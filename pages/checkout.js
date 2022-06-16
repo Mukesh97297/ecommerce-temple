@@ -73,7 +73,7 @@ function Checkout({cart,clearCart,subTotal}) {
                 <span className="total font-bold">Subtotal: ₹{subTotal}</span>
             </div>
             <div className="mx-4">
-            <Link href={"/checkout"}><button class="flex text-white bg-pink-500 border-0 py-2 px-2 mr-1 focus:outline-none hover:bg-pink-600 rounded ">
+            <Link href={"/checkout"}><button className="flex text-white bg-pink-500 border-0 py-2 px-2 mr-1 focus:outline-none hover:bg-pink-600 rounded ">
                <BsFillBagCheckFill className='m-1' /> Pay ₹{subTotal}</button></Link>
             </div>
     </div>
