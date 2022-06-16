@@ -9,7 +9,7 @@ function Hoddies() {
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full  shadow-lg mb-4 ml-2">
               <a className="block relative rounded overflow-hidden">
-                <Image alt="ecommerce"  src="https://m.media-amazon.com/images/I/71WB5f9YH9L._UY741_.jpg" height="100%" width="100%"/>
+                <Image alt="ecommerce"  src="https://m.media-amazon.com/images/I/71WB5f9YH9L._UY741_.jpg" height={500} width={500}/>
               </a>
               <div className="mt-4">
                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Hoddies</h3>
